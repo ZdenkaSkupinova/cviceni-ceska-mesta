@@ -1,9 +1,9 @@
 # cviceni-ceska-mesta
-DÚ 5
+DÚ 5 
 Pokračujte v projektu Česká města z předchozího příkladu.
 
 
-Ve složce src vašeho projektu si vytvořte prázdný soubor cz-cities.js.
+Ve složce src vašeho projektu si vytvořte prázdný soubor cz-cities.js. (některým obr. link nefunguje, a obrrázky mají odlišné rozměry)
 
 Do tohoto souboru zkopírujte obsah souboru cz-cities.js z GitHubu. Soubor obsahuje seznam všech českých měst aktuální k 1. lednu 2020.
 
