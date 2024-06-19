@@ -1,9 +1,7 @@
-import "./city.css"
+import "./City.css"
+import { cities } from "../cities"
 
-import { cities } from "../pages"
-
-
-export const City = ({ name, population, area, district  }) => (
+export const City = () => (
 <div>
 <h1>Česká města</h1>
     <div id="cities"> 
