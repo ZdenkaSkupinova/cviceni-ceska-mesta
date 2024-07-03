@@ -1,27 +1,22 @@
 import "./City.css"
 import { cities } from "../cities"
 
-export const City = () => (
-<div>
-<h1>Česká města</h1>
+export const City = ({name, photo, population, area, district}) => (
+<>
     <div id="cities"> 
-        {
-        cities.map(cities => 
-        <div className="city" key={cities.name}>
-
-        <h3 className="city_name" >{cities.name}</h3>
+        <div className="city">
+        <h3 className="city_name">{name}</h3>
             <div className="city_head">
             <div className="city_img"> 
-                <img className="photo" src={cities.photo} alt="město" /> 
+                <img className="photo" src={photo} alt="město" /> 
             </div>
             <div className="city_details"> 
-                <p className="population">počet obyvatel: {cities.population}</p>
-                <p className="area">rozloha: {cities.area} km²</p>
-                <p className="district">{cities.district}</p>
+                <p className="population">počet obyvatel: {population}</p>
+                <p className="area">rozloha: {area} km²</p>
+                <p className="district">{district}</p>
             </div>
             </div>
-        </div>)
-        }   
+        </div>
     </div>
-</div>
+</>
 )
